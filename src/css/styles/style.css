@@ -15542,6 +15542,42 @@ img {
 
 /* ================================================== */
 
+/* Top Sellers skeleton loading state*/
+
+/* ================================================== */
+
+.skeleton {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.skeleton-text {
+  height: 15px;
+  margin: 5px 0;
+  width: 70%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f0f0f0;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}
+
+/* ================================================== */
+
 /* R E S P O N S I V E */
 
 /* ================================================== */
