@@ -29,7 +29,7 @@ const AuthorItems = () => {
   return (
     <div className="de_tab_content">
       <div className="tab-1">
-        <div className="row">
+        <div className="row" data-aos="fade-up">
           {loading
             ? new Array(8).fill(0).map((_, index) => (
                 <div

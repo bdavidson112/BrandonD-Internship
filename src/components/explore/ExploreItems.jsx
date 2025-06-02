@@ -109,7 +109,7 @@ const ExploreItems = () => {
             className="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12"
             style={{ display: "block", backgroundSize: "cover" }}
           >
-            <div className="nft__item">
+            <div className="nft__item" data-aos="fade-up">
               <div className="author_list_pp">
                 <Link
                   to={`/author/${item.authorId}`}
