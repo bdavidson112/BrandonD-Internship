@@ -2,8 +2,8 @@ import React from "react";
 
 const HeaderExplore = () => {
   return (
-    <div className="col-lg-12">
-      <div className="items_filter">
+    <div className="col-lg-12 fade-up">
+      <div className="items_filter" data-aos="fade-up">
         <form
           action="blank.php"
           className="row form-dark"

@@ -16811,16 +16811,7 @@ img {
   animation: shimmer 2s infinite;
   content: "";
 }
-@-webkit-keyframes shimmer {
-  100% {
-    transform: translateX(100%);
-  }
-}
-@keyframes shimmer {
-  100% {
-    transform: translateX(100%);
-  }
-}
+
 
 .nft-image {
   height: 100%;
